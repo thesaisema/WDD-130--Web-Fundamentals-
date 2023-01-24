@@ -1,0 +1,10 @@
+h1{
+text-align: left;
+text-indent: -5px;
+}
+
+p {
+    text-align: left;
+    text-indent: -5px;
+    text-align-last: center;
+}
