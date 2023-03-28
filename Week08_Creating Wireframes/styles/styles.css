@@ -57,6 +57,10 @@
     width: 100%;
 }
 
+.buttonHolder{
+    text-align: center;
+}
+
 .content{
     width: 100%;
     position: absolute;
