@@ -155,7 +155,12 @@ button:hover{
 .musicdisplay img:hover{
     transform: scale(1.2);
 }
-
+.erykahbadu, .tems, .victoriamonet, .alinabaraz {
+    width: 250px;
+    height: 250px;
+    /* transition: transform 1s; */
+    border-radius: 10%;
+}
 /* SPIRITUAL REFLECTION PAGE FOR CSS */
 .container2{
     width: 100%;
