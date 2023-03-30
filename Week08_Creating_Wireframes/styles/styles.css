@@ -126,13 +126,6 @@ button:hover{
     background-position: center;
 }
 
-/* .musicdisplay img{
-    width: 250px;
-    height: 250px;
-    transition: transform 1s;
-    border-radius: 10%;
-} */
-
 .albums{
     display: grid;
     /* justify-content: space-around; */
@@ -153,6 +146,7 @@ button:hover{
     transition: transform 1s;
     border-radius: 10%;
 }
+
 .albumtext{
     text-align: center;
     margin: auto 0;
@@ -168,12 +162,7 @@ button:hover{
 .musicdisplay img:hover{
     transform: scale(1.2);
 }
-/* .erykahbadu, .tems, .victoriamonet, .alinabaraz {
-    width: 250px;
-    height: 250px;
-    transition: transform 1s;
-    border-radius: 10%;
-} */
+
 /* SPIRITUAL REFLECTION PAGE FOR CSS */
 .container2{
     width: 100%;
@@ -183,36 +172,7 @@ button:hover{
     background-position: center;
 }
 
-/* .spiritualcontent{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: black;
-} */
-
-.spiritualcontent h2{
-    font-size: 70px;
-    margin-top: 100px;
-}
-
-/* SPIRITUAL SECTION */
-
-.scripturesdisplay{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-}
-
-.scripturesdisplay img{
-    width:100%;
-    height: 250px;
-    transition: transform 1s;
-    border-radius: 10%;
-}
-
-.spiritualcontent {
+.spiritualtext {
     text-align: center;
     margin: auto 0;
     padding: 50px 10px;
@@ -223,6 +183,44 @@ button:hover{
     font-size: 12px;
     grid-row:1/2;
 }
+
+.spiritualcontent {
+    display: flex;
+    /* justify-content: space-around; */
+    /* grid-template-columns:2fr 500px; */
+    /* grid-template-rows:1fr; */
+    margin:0 30px;
+}
+
+.spiritualcontent h2{
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.scripturesdisplay{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 50px;
+}
+
+.scripturesdisplay img{
+    width:100%;
+    height: 100px;
+    transition: transform 1s;
+    /* border-radius: 10%; */
+}
+
+/* .spiritualcontent {
+    text-align: center;
+    margin: auto 0;
+    padding: 50px 10px;
+    width: 60%;
+    height: 50%;
+    margin:0 auto;
+    background-color: #C1D9B7;
+    font-size: 12px;
+    grid-row:1/2;
+} */
 
 .scripturesdisplay img:hover{
     transform: scale(1.2);
